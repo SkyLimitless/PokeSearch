@@ -1,6 +1,7 @@
 package com.example.skylimitless.pokesearch;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,6 +12,8 @@ public class LandingPage extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing_page);
+        Intent intent = new Intent(this,finderMap.class);
+        startActivity(intent);
     }
 
     @Override

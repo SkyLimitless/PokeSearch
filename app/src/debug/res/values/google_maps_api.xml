@@ -1,0 +1,18 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=81:A5:00:0F:0A:7A:14:2F:52:DC:0B:D7:F9:DF:B1:83:D0:09:CC:E7%3Bcom.example.skylimitless.pokesearch
+
+    You can also add your credentials to an existing key, using this line:
+    81:A5:00:0F:0A:7A:14:2F:52:DC:0B:D7:F9:DF:B1:83:D0:09:CC:E7;com.example.skylimitless.pokesearch
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyBPP0kvIub4XXVpDAiXbu12A3z48dCysvo
+    </string>
+</resources>
